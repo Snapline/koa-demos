@@ -1,3 +1,4 @@
+//最外层的中间件，负责所有中间件的错误处理。
 const Koa = require('koa');
 const app = new Koa();
 

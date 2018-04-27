@@ -1,3 +1,4 @@
+//koa-compose模块可以将多个中间件合成为一个。
 const Koa = require('koa');
 const compose = require('koa-compose');
 const app = new Koa();
@@ -11,6 +12,8 @@ const main = ctx => {
   ctx.response.body = 'Hello World';
 };
 
+// app.use(logger);
+// app.use(main);
 const middlewares = compose([logger, main]);
 
 app.use(middlewares);

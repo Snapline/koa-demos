@@ -1,3 +1,4 @@
+//如果将ctx.response.status设置成404，就相当于ctx.throw(404)
 const Koa = require('koa');
 const app = new Koa();
 

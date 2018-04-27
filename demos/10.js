@@ -1,3 +1,4 @@
+//异步操作，中间件必须写成async函数
 const fs = require('fs.promised');
 const Koa = require('koa');
 const app = new Koa();

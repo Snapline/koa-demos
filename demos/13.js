@@ -1,3 +1,4 @@
+//路由重定向
 const Koa = require('koa');
 const route = require('koa-route');
 const app = new Koa();

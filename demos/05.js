@@ -1,3 +1,4 @@
+//原生路由   ctx.request.path可以获取请求的路径
 const Koa = require('koa');
 const app = new Koa();
 

@@ -1,3 +1,4 @@
+//HTTP response的类型，默认返回类型是text/plain
 const Koa = require('koa');
 const app = new Koa();
 

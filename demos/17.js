@@ -1,3 +1,4 @@
+//监听error事件，也可以处理错误
 const Koa = require('koa');
 const app = new Koa();
 

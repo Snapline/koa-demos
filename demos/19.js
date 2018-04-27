@@ -1,3 +1,4 @@
+//ctx.cookies用来读写 Cookie。
 const Koa = require('koa');
 const app = new Koa();
 

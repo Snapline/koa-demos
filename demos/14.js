@@ -1,3 +1,4 @@
+//ctx.throw()方法，用来抛出错误
 const Koa = require('koa');
 const app = new Koa();
 
